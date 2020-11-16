@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+aside{
+    background-color: #006341;
+    height: 10px;
+}
+
+header{
+    height: 68px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header .logo {
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 5px;
+     }
+
+    header .lateral{
+        height: 20px;
+        margin-top: 38px;
+        margin-right: 10px;
+    }
+
+    header .lista{
+        display: none;
+    }
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    main > img.phone{
+        width: 100%;
+        flex: 0 1 auto;
+
+    }
+
+    main > img.desktop{
+        width: 100%;
+        flex: 0 1 auto;
+        display: none;
+
+    }
+
+
+@media (min-width: 480px){
+
+    main > img.phone{
+       display: none;
+
+    }
+
+    main > img.desktop{
+        display: initial;
+        min-height: 100%;
+    }
+
+}
+
+@media (min-width: 769px){
+
+    header{
+        height: 120px;
+    }
+
+    header .logo {
+        height: 60px;
+        margin-top: 12px;
+     }
+
+     header .lateral{
+         display: none;
+        
+    }
+        header{
+            flex-direction: column;
+            align-items: flex-start;
+             }
+             
+                header .lista{
+                     display: flex;
+                     width: 100%;
+                     margin-right: 10px;   
+                    }
+                    
+                    header .lista ul{
+                        display: flex;                    
+                        list-style: none;
+                        margin-left: -15px;
+                    }
+
+                        header .lista ul li{
+                           margin-right: 18px;
+                           letter-spacing: 2px;
+                        }
+ }
+@media (min-width: 992px){
+
+    header{
+        flex-direction: row;
+        align-items: flex-start;
+         }
+
+         header .logo {
+            height: 70px;
+            margin-top: 28px;
+         }
+
+         header .lista ul{
+            display: flex;                    
+            list-style: none;
+            margin-left: -15px;
+            margin-top: 80px;
+        }
+}

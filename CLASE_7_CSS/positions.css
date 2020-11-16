@@ -1,0 +1,24 @@
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    padding: 30px;
+    position: relative;
+}
+
+.container-intermedio{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(0, 128, 122);
+    padding: 30px;
+}
+
+.hijo{
+    width: 80px;
+    height: 80px;
+    background-color:red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+

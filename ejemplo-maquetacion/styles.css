@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+    header *{
+        color: white;
+    }
+
+
+    header > h1{
+        margin-bottom: 10px;
+    }
+
+    header >h2{
+
+        margin-top: 0px;
+    }
+
+    header > p{
+        margin: 0 40px 60px 40px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+main{
+    margin: 0 40px;
+}
+
+main p{
+    font-size: 12px;
+}
+
+
+div.formulario{
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario *{
+    margin: 5px 0;
+
+}
+
+.formulario textarea{
+    padding: 25px 0;
+    background-color: #9b7a85;
+}
+
+.formulario input{
+    background-color: #9b7a85;
+
+}
+
+.formulario button{
+    width: 80px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+h3{
+    border-bottom: 1px solid black;
+
+}
+
+main > img{
+width: 100%;
+}
+
+.formulario label{
+    font-size: 14px;
+}
+
+@media (min-width: 800px){
+
+    header{
+        align-items: flex-start;
+        padding-left: 80px;
+    }
+
+    header > p{
+        text-align: left;
+        margin-left: 0;
+    }
+
+    main{
+        margin: 0 200px
+    }
+
+    main > img{
+        width: 300px;
+        float: right;
+        }
+
+    div.formulario{
+        margin: 60px 200px 0 200px
+        
+    }
+
+    header > h1{
+        font-size: 40px;
+    }
+
+    header > h2{
+        font-size: 30px;
+    }
+
+    header > p{
+        font-size: 16px;
+    }
+
+    main p{
+        font-size: 17px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    .formulario label{
+        font-size: 16px;
+    }
+
+
+}

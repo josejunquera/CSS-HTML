@@ -1,0 +1,81 @@
+body > div >div {
+    margin: 10px;
+    height: 50px;
+}
+
+.uno{
+    background-color: lawngreen;
+    height: 50px;
+}
+
+.dos{
+    background-color: rgb(252, 206, 0);
+    height: 300px;
+}
+
+.tres{
+    background-color: rgb(0, 231, 252);
+    height: 50px;
+
+}
+
+.cuatro{
+    background-color: rgb(252, 0, 176);
+    height: 50px;
+
+}
+
+.cinco{
+    background-color: rgb(4, 0, 252);
+    height: 50px;
+    display: none;
+}
+
+@media (min-width: 600px){
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .uno{
+        flex: 0 1 100%;
+        height: 100px;
+    }
+    .dos{
+        flex: 0 1 100%;
+    }
+    .tres{
+        flex: 1 1 40%;
+        height: 200px;
+    }
+    .cuatro{
+        flex: 1 1 40%;
+        height: 200px;
+
+    }
+    
+}
+
+@media (min-width: 900px){
+  
+    .dos{
+        flex: 1 1 20%;
+        height: 300px;
+
+    }
+    .tres{
+        flex: 2 1 40%;
+        height: 300px;
+    }
+    .cuatro{
+        flex: 1 1 20%;
+        height: 300px;
+    }
+    .cinco{
+        flex: 0 1 100%;
+        display: block;        
+    }    
+
+    }

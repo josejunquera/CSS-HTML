@@ -1,0 +1,118 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    height: 100px;
+}
+#boton1{
+    background-color:red;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#boton2{
+    background-color: #4CAF50;    
+    padding: 14px 28px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#boton1:hover{
+    background-color: #921e13;
+}
+#boton2:hover{
+    background-color: #28d811;
+}
+
+table{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    border-width: thin;
+}
+
+th,td{
+    border-style: solid;
+    border-width: thin;
+
+}
+
+#titulotabla{
+    text-align: center;
+    background-color: red;
+    width:;
+}
+th{
+    background-color: yellow;
+}
+.gris{
+    background-color: grey;
+}
+
+tr:nth-child(even){
+    background-color: goldenrod;
+}
+
+caption{
+    background-color: red;
+    font-size: 18px;
+}
+
+.tabla{
+    height: 350px;
+}
+
+.ejercicio{
+    height: 200px;
+}
+
+.articulo{
+    width: 200px;
+    height: 300px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px ;}
+
+img{
+    width: 200px;
+    border-radius: 10px  10px 0 0;
+    border-bottom: 1px black solid;
+    
+    
+}
+
+p{
+padding: 10px 50px 10px 20px;
+margin-bottom: 0px;
+font-weight: bold;
+color: rgb(105, 85, 85);
+font-family: 'Roboto', sans-serif;
+}
+
+article a{
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    color: rgb(105, 85, 85);
+    padding-bottom: 10px;
+}
+
+footer{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgb(105, 85, 85);
+    border-top: 1px black solid;
+
+}

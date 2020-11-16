@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+.item{
+    margin: 0 auto;
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.item:hover{
+    background-color: rgb(20, 190, 220);
+}
+
+input{
+    width: 100px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+input:focus{
+    width: 500px;
+}

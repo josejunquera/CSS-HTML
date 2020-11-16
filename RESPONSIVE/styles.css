@@ -1,0 +1,72 @@
+header{
+    margin: 6px;
+    height: 150px;
+    background-color: yellow;
+}
+
+main > div{
+    margin: 6px;
+    height: 150px;
+    background-color:blue;
+}
+
+footer > div{
+    margin: 6px;
+    height: 150px;
+    background-color: grey;
+    display: none;
+}
+
+footer > div.important {
+    display: block;
+}
+
+
+@media (min-width: 600px){
+
+    
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer > div{
+        display: block;
+        flex: 0 1 calc(50% - 12px);
+    }
+
+    header{
+        height: 250px;
+    }
+
+    main > div{
+        height: 100px;
+    }
+}
+
+@media (min-width: 960px){
+
+    header{
+        height: 400px;
+    }
+
+    main{
+        display: flex;
+    }
+    main > div{
+        height: 400px;
+        flex: 1 1 auto;
+    }
+    
+    footer{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    footer > div{
+        display: block;
+        flex: 1 1 auto;
+        height: 250px;
+    }
+
+}

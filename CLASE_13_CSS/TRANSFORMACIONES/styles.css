@@ -1,0 +1,35 @@
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+body{
+    text-align: center;
+
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.mover:hover{
+    transform: translate(20px, 20px);
+}
+
+.aumenta:hover{
+    transform: scale(3);
+}
+
+.rota:hover{
+    transform: rotate(45deg);
+
+}
+
+.color:hover{
+    background-color: chartreuse;
+}

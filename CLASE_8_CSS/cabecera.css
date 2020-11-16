@@ -1,0 +1,34 @@
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+
+}
+.top{
+    align-items: center;
+    height: 35px;
+    justify-content: flex-end;
+    display: flex;
+    background-color: rgb(36, 114, 167);
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+
+}
+p{
+    color: white;
+    padding: 15px;
+    margin: 0%;
+}
+p:hover{
+    text-decoration: underline;
+    text-decoration-color: teal;
+}
+img{
+    height: 80px;
+}

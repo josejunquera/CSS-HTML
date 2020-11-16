@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: darkblue;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    border-color: rgb(21, 168, 16);
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 8px;
+    border-bottom-color: darkblue;
+
+    animation-name: rotar ;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    position: relative;
+}
+
+img{
+    position: absolute;
+    height: 95px;
+    width: 95px;
+
+    animation: size 1s infinite alternate;
+}
+
+
+@keyframes rotar {
+
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes size {
+
+    from{
+        transform: scale(0.5)
+    }
+    to{
+        transform: scale(0.8);
+    }
+}
+
+@keyframes{
+    
+    from{
+        
+        border-top: 8px solid blue;
+        border-bottom:....  
+        ...
+        ...
+
+    }
+    to{
+
+        border-top: ;
+        ...
+        ...
+        ...
+    }
+
+
+}
+
+

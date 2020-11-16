@@ -1,0 +1,20 @@
+.uno{
+    display: flex;
+    border: 3px solid orange;
+    resize: both;
+    overflow: auto;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.dos{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.dos:nth-child(even){
+    background-color: chartreuse;
+}

@@ -1,0 +1,32 @@
+header{
+    height: 364px;
+    background-color: blue;
+    padding: 30px;
+}
+
+nav{
+    background-color: crimson;
+    height: 500px;
+    margin-top: 12px;
+}
+.bloque{
+    background-color: chocolate ;
+    width: 200px;
+    z-index: 10;
+    position: fixed;
+}
+a{
+    background-color: cornflowerblue;
+}
+.linea{
+    position: relative;
+    width: 500px;
+    top: 200px;
+    left: 125px;
+}
+.bloque2{
+    background-color: darkcyan;
+    height: 20px;
+    position: fixed;
+    z-index: 15;
+}

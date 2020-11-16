@@ -1,0 +1,59 @@
+.cabecera{
+    background-color: blue;
+    margin: 10px;
+    height: 50px;
+}
+
+.secundario{
+    background-color: rgb(81, 255, 0);
+    margin: 10px;
+    height: 50px;
+}
+.terc{
+    background-color: rgb(255, 51, 0);
+    margin: 10px;
+    height: 500px;
+}
+.cuart{
+    background-color: rgb(255, 0, 179);
+    margin: 10px;
+    height: 50px;
+    display: none;
+}
+
+@media (min-width: 600px){
+    
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .secundario{
+        flex: 1 1 100% ; 
+        height: 100px;
+    }
+   
+    .terc{
+        flex: 2 1 40%;
+    }
+    .cuart{
+        display: block;
+        flex: 1 1 20%;
+        height: 500px;
+        }
+}
+
+@media (min-width: 900px){
+
+    .secundario{
+        height: 500px;
+        flex: 0 1 250px;
+    }
+    
+    .terc{
+        flex: 1 1 auto;
+    }
+    .cuart{
+        flex: 0 1 200px;
+        }
+    }   

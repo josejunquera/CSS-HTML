@@ -1,0 +1,27 @@
+h1{
+    background-color: blueviolet;
+}
+.uno{
+    background-color: brown;
+
+}
+
+.dos{
+    color: chartreuse;
+    background-color: red;
+}
+[href]{
+    background-color: royalblue;
+    color: white;
+}
+div:hover{
+    background-color: yellow ;
+}
+
+a:hover{
+    background-color: tomato;
+}
+
+p::first-letter{
+    font-size: 50px;
+}

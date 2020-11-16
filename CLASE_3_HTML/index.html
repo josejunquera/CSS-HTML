@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+
+        <h1>Tabla redes sociales</h1>
+
+        <table border="1">
+
+            <tr>
+                <th colspan="2">Red Social</th>
+                <th>¿Cuenta creada?</th>
+                <th>Puntuación</th>
+                <th>Enlace</th>
+            </tr>
+
+            <tr>
+                <td>Facebook</td>
+                <td>
+                    <a
+                        href="https://png.pngtree.com/element_our/png_detail/20181011/facebook-social-media-icon-design-template-vector-png_127003.jpg">
+                        <img src="https://png.pngtree.com/element_our/png_detail/20181011/facebook-social-media-icon-design-template-vector-png_127003.jpg"
+                            alt="logo fb" height="80px">
+                    </a>
+                </td>
+                <td>
+                    <input type="checkbox"></form>
+                </td>
+                <td>
+                    <p>4/10</p>
+                </td>
+                <td><a href="https://es-es.facebook.com/>" target="blank">Facebook </a> </td>
+            </tr>
+
+            <tr>
+                <td>Twitter</td>
+                <td><img src="https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg" alt="logo twitter"
+                        height="80px"> </td>
+                <td>
+                    <input type="checkbox"></form>
+                </td>
+                <td>
+                    <p>6/10</p>
+                </td>
+                <td><a href="https://twitter.com/?lang=es" target="blank">Twitter </a> </td>
+            </tr>
+
+            <tr>
+                <td>Instagram</td>
+                <td><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="logo ig"
+                        height="80px"> </td>
+                <td>
+                    <input type="checkbox"></form>
+                </td>
+                <td>
+                    <p>1/10</p>
+                </td>
+                <td><a href="https://www.instagram.com/?hl=es" target="blank">Instagram </a> </td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <br>
+
+    <section>
+
+        <table border="1">
+
+            <tr>
+                <th rowspan="2">Tiempo</th>
+                <th rowspan="2">Clase</th>
+                <th colspan="2">Hotel 3 estrellas</th>
+                <th rowspan="2">Hotel 4 estrellas</th>
+            </tr>
+            <tr>
+                <th>Alojamiento</th>
+                <th>Pension completa</th>
+
+            </tr>
+            <tr>
+                <td rowspan="2">1 Semanas</td>
+                <td>Turista</td>
+                <td>700€</td>
+                <td>1000€</td>
+                <td rowspan="2">1500€</td>
+            </tr>
+            <tr>
+                <td>Avión preferente</td>
+                <td>850€</td>
+                <td>1500€</td>
+            </tr>
+            <tr>
+                <td colspan="2">2 Semanas</td>
+                <td>1300€</td>
+                <td>1800€</td>
+                <td>1250€</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Datos personales</legend>
+            <label>Nombre <input type="text" placeholder="Inserte su nombre" /></label>
+            <br>
+            <br>
+            <label>Apellidos<input type="text" disabled /></label>
+            <br>
+            <br>
+            <label>Dirección <input type="text>" /></label>
+            <br>
+            <br>
+            <label>DNI<input type="text" placeholder="xxxxxxxx-x"></label>
+            <br>
+            <br>
+            <label>Foto perfil<input type="file"></label>
+            <br>
+            <br>
+            <button type="submit" value="submit">Enviar</button>
+            <button type="reset" value="reset">Reset</button>
+
+        </fieldset>
+
+    </form>
+
+    <br>
+    <br>
+
+    <form>
+
+        <label>Company <input type="text" /></label>
+        <br>
+        <label>First Name <input type="text" /></label>
+        <br>
+        <label>Title <input type="number" /></label>
+        <br>
+        <label>Last Name <input type="text" /></label>
+        <br>
+        <label>Email adress <input type="email" /></label>
+        <br>
+        <label>Title <input type="text" /></label>
+        <br>
+        <label>Phone <input type="number" /></label>
+        <br>
+        <label>Cancel registration <input type="checkbox" /></label>
+        <br>
+        <label>Training sessions<input list="browsers" placeholder="--Select date--">
+
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Google Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist></label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+
+        <p>Job function:</p>
+
+        <div>
+            <input type="radio" id="huey" name="drone" value="huey" checked>
+            <label for="huey">Huey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Dewey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Louie</label>
+        </div>
+
+        <label>Dietary requirements <input type="text" /></label>
+
+<br>
+<label>Expectations <textarea name="jajaja" ></textarea> </label>
+
+    </form>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.top{
+    background-color: black;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top *{
+    margin-right: 80px;
+}
+
+.mid{
+    display: flex;
+    background-color: rgb(20, 68, 124);
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.mid{
+    margin: 0px;
+    color: white;
+
+    
+}
+.imagenes{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+/* transicion interesante! transicion=1 transicion en 1 s de hover por ejemplo
